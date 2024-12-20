@@ -86,13 +86,13 @@ app_license = "mit"
 # ------------
 
 # before_install = "bform.install.before_install"
-# after_install = "bform.install.after_install"
+after_install = "bform.install.after_install"
 
 # Uninstallation
 # ------------
 
 # before_uninstall = "bform.uninstall.before_uninstall"
-# after_uninstall = "bform.uninstall.after_uninstall"
+after_uninstall = "bform.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
