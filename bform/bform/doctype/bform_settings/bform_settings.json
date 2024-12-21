@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-21 13:23:51.066587",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "set_roles_at_sign_up"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "description": "If enabled, all the users will be given the <code>Bform User</code> role at Signup.\n<br>\nThis gives access to form creation to every user.",
+   "fieldname": "set_roles_at_sign_up",
+   "fieldtype": "Check",
+   "label": "Set roles at sign up"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-21 13:26:38.063429",
+ "modified_by": "Administrator",
+ "module": "Bform",
+ "name": "Bform Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
