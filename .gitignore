@@ -53,3 +53,8 @@ jspm_packages/
 
 # Aider AI Chat
 .aider*
+
+bform/public/dist
+bform/public/frontend
+bform/www/frontend.html
+bform/www/ballot.html
