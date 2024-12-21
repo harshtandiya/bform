@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class BformTeamMembers(Document):
+class BformTeamMember(Document):
 	pass

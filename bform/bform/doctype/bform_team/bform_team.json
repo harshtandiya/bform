@@ -5,27 +5,27 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "name1",
+  "team_name",
   "members"
  ],
  "fields": [
   {
-   "fieldname": "name1",
+   "fieldname": "members",
+   "fieldtype": "Table",
+   "label": "Members",
+   "options": "Bform Team Member"
+  },
+  {
+   "fieldname": "team_name",
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Name",
    "reqd": 1
-  },
-  {
-   "fieldname": "members",
-   "fieldtype": "Table",
-   "label": "Members",
-   "options": "Bform Team Members"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-21 13:12:20.578780",
+ "modified": "2024-12-21 14:01:32.431697",
  "modified_by": "Administrator",
  "module": "Bform",
  "name": "Bform Team",
