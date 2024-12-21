@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "feather-icons": "^4.29.2",
-    "frappe-ui": "^0.1.72",
+    "frappe-ui": "^0.1.93",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
@@ -18,7 +18,7 @@
     "@vitejs/plugin-vue": "^5.1.4",
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.5",
-    "tailwindcss": "^3.4.14",
+    "tailwindcss": "^3.4.17",
     "vite": "^5.4.10"
   }
 }
