@@ -10,7 +10,7 @@
   "details_section",
   "title",
   "description",
-  "fields_meta",
+  "fields",
   "meta_tab",
   "meta_section",
   "og_image",
@@ -29,11 +29,6 @@
    "fieldname": "description",
    "fieldtype": "Text Editor",
    "label": "Description"
-  },
-  {
-   "fieldname": "fields_meta",
-   "fieldtype": "JSON",
-   "label": "Fields Meta"
   },
   {
    "fieldname": "meta_tab",
@@ -74,11 +69,17 @@
    "fieldname": "meta_section",
    "fieldtype": "Section Break",
    "label": "Meta"
+  },
+  {
+   "fieldname": "fields",
+   "fieldtype": "Table",
+   "label": "Fields",
+   "options": "Bform Field"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-21 13:03:50.386144",
+ "modified": "2024-12-21 17:02:29.801438",
  "modified_by": "Administrator",
  "module": "Bform",
  "name": "Web BForm",
