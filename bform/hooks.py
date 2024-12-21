@@ -21,6 +21,8 @@ app_license = "mit"
 # 	}
 # ]
 
+website_route_rules = [{'from_route': '/bform/<path:app_path>', 'to_route': 'bform'},]
+
 # Includes in <head>
 # ------------------
 
