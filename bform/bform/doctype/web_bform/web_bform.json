@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-21 02:50:23.528060",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "routing_section",
+  "route",
+  "details_section",
+  "title",
+  "description",
+  "fields_meta",
+  "meta_tab",
+  "meta_section",
+  "og_image",
+  "og_title",
+  "og_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "fields_meta",
+   "fieldtype": "JSON",
+   "label": "Fields Meta"
+  },
+  {
+   "fieldname": "meta_tab",
+   "fieldtype": "Tab Break",
+   "label": "Customize"
+  },
+  {
+   "fieldname": "og_image",
+   "fieldtype": "Attach Image",
+   "label": "OG Image"
+  },
+  {
+   "fieldname": "og_title",
+   "fieldtype": "Data",
+   "label": "OG Title"
+  },
+  {
+   "fieldname": "og_description",
+   "fieldtype": "Small Text",
+   "label": "OG Description"
+  },
+  {
+   "fieldname": "routing_section",
+   "fieldtype": "Section Break",
+   "label": "Routing"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "meta_section",
+   "fieldtype": "Section Break",
+   "label": "Meta"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-21 13:03:50.386144",
+ "modified_by": "Administrator",
+ "module": "Bform",
+ "name": "Web BForm",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "if_owner": 1,
+   "read": 1,
+   "role": "BForm User",
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "All"
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
